@@ -28,7 +28,13 @@ const Navbar = () => {
         {navLink}
       </ul>
     </div>
-    <Image src="/logo.png" alt="" width={32} height={32} />
+    <Image
+    src="/logo.png"
+    alt=" Logo"
+    width={20}
+    height={20}
+    className="object-contain"
+/>
     <a className="btn btn-ghost text-xl">FITLOG</a>
     
   </div>
