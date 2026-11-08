@@ -6,7 +6,7 @@ const Navbar = () => {
   const navLink =(
     <>
     <li>
-      <Link href={"/src/app/components/Navbar.jsx"}>Workouts</Link>
+      <Link href={"/"}>Workouts</Link>
   
     </li>
     <li>

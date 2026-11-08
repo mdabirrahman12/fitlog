@@ -1,11 +1,5 @@
-import React from 'react';
-
-const api = () => {
-    return (
-        <div>
-            api
-        </div>
-    );
+export const getAllWorkouts = async () => {
+    const res=await fetch ("https://api.abcz.workers.dev/api/fitlog",
+    {cache:"no-store"})
+    return res.json();
 };
-
-export default api;
